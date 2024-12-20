@@ -11,7 +11,7 @@ def home(request):
 
 
 def recipe(request, id):
-    """ Home View """
-    return render(request, 'recipes/pages/home.html', context={
+    """ Recipe View """
+    return render(request, 'recipes/pages/recipe-view.html', context={
         'name': 'Jonathan'
     })
