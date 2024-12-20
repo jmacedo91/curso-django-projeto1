@@ -8,3 +8,10 @@ def home(request):
     return render(request, 'recipes/pages/home.html', context={
         'name': 'Jonathan'
     })
+
+
+def recipe(request, id):
+    """ Home View """
+    return render(request, 'recipes/pages/home.html', context={
+        'name': 'Jonathan'
+    })
